@@ -1,0 +1,170 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "scvrJqaRVcGNwFCfthLLKU",
+      "projectApiToken": "D2Uev6mNHFm6pQezccOnocb9nZDflE4e0RAAyhSqGuUXgw6fnogng4BpEKfOYTrcMqKEoiuwCcGLPs1XZeVg",
+      "projectName": "GraphImport",
+      "version": "latest",
+      "cssFilePath": "plasmic/graph_import/plasmic.module.css",
+      "components": [
+        {
+          "id": "dVWj6P_i2gqj",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "scvrJqaRVcGNwFCfthLLKU",
+          "renderModuleFilePath": "plasmic/graph_import/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/graph_import/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/graph_import/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "styleTokensProviderFilePath": "plasmic/graph_import/PlasmicStyleTokensProvider.tsx",
+      "projectModuleFilePath": "plasmic/graph_import/plasmic.tsx",
+      "codeComponents": [
+        {
+          "id": "Rt1Kplv8-PRH",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "uPvEHpj7ydR7",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "yP3Dlnt94NhV",
+          "name": "RechartBar",
+          "displayName": "RechartBar",
+          "componentImportPath": "./components/RechartBar"
+        },
+        {
+          "id": "W_o94wHeHn2i",
+          "name": "Button",
+          "displayName": "WDPButton",
+          "componentImportPath": "@WESCO-International/wdp-ui-components/components/button"
+        },
+        {
+          "id": "eIHYub6cb3t0",
+          "name": "WDPDropdown",
+          "displayName": "WDPDropdown",
+          "componentImportPath": "./components/WDPDropdown"
+        },
+        {
+          "id": "Fw1JAUAKuGym",
+          "name": "WDPSideNav",
+          "displayName": "WDPSideNav",
+          "componentImportPath": "./components/WDPSidenav"
+        },
+        {
+          "id": "g_dxy5ZI5168",
+          "name": "WDPTablePagination",
+          "displayName": "WDPTablePagination",
+          "componentImportPath": "./components/PaginationServer"
+        },
+        {
+          "id": "3jR4f-w7mSQJ",
+          "name": "AppLayout",
+          "displayName": "WDPApplayout",
+          "componentImportPath": "./components/AppLayout"
+        },
+        {
+          "id": "D89SRvLJhpkG",
+          "name": "WDPNavbar",
+          "displayName": "WDPNavbar",
+          "componentImportPath": "./components/WDPNavbar"
+        },
+        {
+          "id": "YDUrHLwBbHIk",
+          "name": "Relinechart",
+          "displayName": "RelineChart",
+          "componentImportPath": "./components/RechartLine"
+        },
+        {
+          "id": "AvQXPlUH7Sx1",
+          "name": "PieChart",
+          "displayName": "PieChart",
+          "componentImportPath": "./components/Repiechart"
+        },
+        {
+          "id": "eIFhSdyjR_ne",
+          "name": "ReAreaChart",
+          "displayName": "AreaChartPlasmic",
+          "componentImportPath": "./components/Reareachart"
+        },
+        {
+          "id": "gU-VKyKaGgRi",
+          "name": "Reradarchart",
+          "displayName": "RadarChart",
+          "componentImportPath": "./components/Reradarchat"
+        },
+        {
+          "id": "P_wcPTudd2BD",
+          "name": "WDPDatepicker",
+          "displayName": "WDPDatepicker",
+          "componentImportPath": "./components/WDPDatepicker"
+        },
+        {
+          "id": "FYFCLaAtCBr9",
+          "name": "WDPCustomCard",
+          "displayName": "WDPCustomCard",
+          "componentImportPath": "./components/WDPCustomCard"
+        },
+        {
+          "id": "iOG-Sbf80dQo",
+          "name": "UserContext",
+          "displayName": "UserContext",
+          "componentImportPath": "./context/UserContext"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "LerhodZCeyt2",
+        "name": "Screen",
+        "projectId": "scvrJqaRVcGNwFCfthLLKU",
+        "contextFilePath": "plasmic/graph_import/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.342",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.342/dist/plasmic.schema.json"
+}
