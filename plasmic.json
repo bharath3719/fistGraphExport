@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -46,7 +46,7 @@
       "icons": [],
       "images": [],
       "indirect": false,
-      "globalContextsFilePath": "plasmic/graph_import/PlasmicGlobalContextsProvider.tsx",
+      "globalContextsFilePath": "",
       "splitsProviderFilePath": "",
       "styleTokensProviderFilePath": "plasmic/graph_import/PlasmicStyleTokensProvider.tsx",
       "projectModuleFilePath": "plasmic/graph_import/plasmic.tsx",
@@ -140,12 +140,6 @@
           "name": "WDPCustomCard",
           "displayName": "WDPCustomCard",
           "componentImportPath": "./components/WDPCustomCard"
-        },
-        {
-          "id": "iOG-Sbf80dQo",
-          "name": "UserContext",
-          "displayName": "UserContext",
-          "componentImportPath": "./context/UserContext"
         }
       ],
       "customFunctions": []
